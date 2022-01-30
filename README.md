@@ -1,25 +1,19 @@
 # Cypress
 
-Fast, easy and reliable testing for anything that runs in a browser.
+[Replay](https://replay.io) enabled fork of the [Cypress](https://www.cypress.io) library.
 
-## What is this?
+## Overview
 
-[Cypress](https://www.cypress.io/) comes packaged as an `npm` module, which is all you need to get started testing.
-
-After installing you'll be able to:
-
-- Open Cypress from the CLI
-- Run Cypress from the CLI
-- `require` Cypress as a module
+This is an alternative to Cypress that runs tests in the same way as the upstream Cypress library, and adds support for recording tests using replay enabled browsers.  By default, recordings will only be created for failing tests when using `cypress run`.
 
 ## Install
 
-Please check our [system requirements](https://on.cypress.io/installing-cypress).
+Please check the [Cypress system requirements](https://on.cypress.io/installing-cypress).  Additionally, using replay enabled browsers is currently only supported on macOS and linux.
 
 ```sh
-npm install --save-dev cypress
+npm install --save-dev @recordreplay/cypress
 ```
 
 ## Documentation
 
-Please [visit our documentation](https://on.cypress.io/cli) for a full list of commands and examples.
+Visit the [Cypress documentation](https://on.cypress.io/cli) for a full list of commands and examples.

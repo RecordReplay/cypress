@@ -1,5 +1,5 @@
 {
-  "name": "cypress",
+  "name": "@recordreplay/cypress",
   "version": "9.2.1",
   "main": "index.js",
   "scripts": {
@@ -63,15 +63,15 @@
     "node": ">=12.0.0"
   },
   "types": "types",
-  "description": "Cypress.io end to end testing tool",
-  "homepage": "https://github.com/cypress-io/cypress",
+  "description": "Replay enabled Cypress.io fork",
+  "homepage": "https://github.com/RecordReplay/cypress",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cypress-io/cypress/issues"
+    "url": "https://github.com/RecordReplay/cypress/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cypress-io/cypress.git"
+    "url": "https://github.com/RecordReplay/cypress.git"
   },
   "keywords": [
     "automation",
