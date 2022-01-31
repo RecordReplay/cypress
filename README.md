@@ -4,7 +4,7 @@
 
 ## Overview
 
-This is an alternative to Cypress that runs tests in the same way as the upstream Cypress library, and adds support for recording tests using replay enabled browsers.  By default, recordings will only be created for failing tests when using `cypress run`.
+This is an alternative to Cypress that runs tests in the same way as the upstream Cypress library, and adds support for recording tests using replay enabled browsers.  By default, recordings will only be created for failing tests when using `cypress run`.  The `RECORD_REPLAY_API_KEY` environment variable must be set in order to record and upload tests.
 
 ## Install
 

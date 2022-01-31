@@ -1,6 +1,6 @@
 {
   "name": "@recordreplay/cypress",
-  "version": "9.2.1",
+  "version": "9.2.1.1",
   "main": "index.js",
   "scripts": {
     "postinstall": "node index.js --exec install",
@@ -9,6 +9,7 @@
   "dependencies": {
     "@cypress/request": "^2.88.10",
     "@cypress/xvfb": "^1.2.4",
+    "@recordreplay/recordings-cli": "^0.6.0",
     "@types/node": "^14.14.31",
     "@types/sinonjs__fake-timers": "^6.0.2",
     "@types/sizzle": "^2.3.2",
