@@ -32,4 +32,4 @@ Configuration objects can have the following properties:
 
 * `titleFilters`: An array of strings containing patterns for the titles of tests to record, whether they passed or not.
 
-* `shuffleOrder`: Set to randomize the order in which tests will be recorded, and which tests will be selected to record if there are more than the maximum number allowed.
+* `randomize`: Set to randomize which tests will be selected to record if there are more than the maximum number allowed. This is useful to improve coverage in CI environments when there are many tests which could be recorded.
