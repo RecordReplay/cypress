@@ -1,6 +1,6 @@
 {
   "name": "@recordreplay/cypress",
-  "version": "9.2.3",
+  "version": "9.2.4",
   "main": "index.js",
   "scripts": {
     "postinstall": "node index.js --exec install",
