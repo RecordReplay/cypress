@@ -1,3 +1,5 @@
+> Superseded by the `@replayio/cypress` plugin hosted in https://github.com/replayio/replay-cli
+
 # Cypress
 
 [Replay](https://replay.io) enabled fork of the [Cypress](https://www.cypress.io) library.
